@@ -14,3 +14,17 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Setup database
+1. [Install MongoDb](https://docs.mongodb.com/manual/installation/)
+2. Make sure to Install Mongodb Compass
+3. create database "local" in your mongodb
+4. import data in `database.json` to your "local" database using MongoDb Compass
+# Setup  Server
+1. [Install Yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
+2. switch into server folder `cd server`
+3. install all dependendies with `yarn install`
+4. start server with `yarn run start`
+
+
+
